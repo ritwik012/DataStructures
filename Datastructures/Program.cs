@@ -97,16 +97,7 @@ namespace DataStructures
                         int search = linkedList.Search(30);
                         Console.WriteLine("The searched data is at position {0}", search);
                         break;
-                    case 11:
-                        linkedList.Add(56);
-                        linkedList.Add(30);
-                        linkedList.Add(70);
-                        linkedList.Display();
-                        int position = linkedList.Search(30);
-                        position++;
-                        linkedList.InsertAtParticularPosition(position, 40);
-                        linkedList.Display();
-                        break;
+                    
                     case 12:
                         flag = false;
                         break;
